@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_message"
+        android:icon="@drawable/ic_mail"
+        android:title="Inbox"
+        app:actionLayout="@layout/custom_notification_layout"
+        android:enabled="true"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_monet"
+        android:icon="@drawable/ic_monetization"
+        android:title="Saldo"
+        android:enabled="true"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_profile"
+        android:enabled="true"
+        android:icon="@drawable/ic_profile"
+        android:title="Akun"
+        app:showAsAction="always" />
+
+
+</menu>
